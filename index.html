@@ -30,7 +30,7 @@
                         enunciado: "Opera y simplifica:",
                         formula: "\\frac{2}{3} + \\frac{1}{4} \\cdot \\frac{3}{5} - 0,6 - \\left[\\left(\\frac{1}{3}\\right)^2 + \\left(\\frac{1}{3}\\right)^{-2}\\right]",
                         apartados: [
-                            { texto: "(Resultado final)", correcta: "−1601/180", errores: [["−9","Has redondeado un resultado que se pide exacto."],["−1581/180","Falta restar 1/9, que equivale a 20/180."],["−1561/180","El signo menos delante del corchete también cambia el signo de 1/9."]] }
+                            { texto: "(Resultado final)", correcta: "\\(-\\dfrac{1601}{180}\\)", errores: [["−9","Has redondeado un resultado que se pide exacto."],["\\(-\\dfrac{1581}{180}\\)","Falta restar 1/9, que equivale a 20/180."],["\\(-\\dfrac{1561}{180}\\)","El signo menos delante del corchete también cambia el signo de 1/9."]] }
                         ]
                     },
                     {
@@ -47,17 +47,17 @@
                         enunciado: "Realiza las siguientes operaciones expresando el resultado como potencia de exponente entero:",
                         formula: "\\frac{\\left(\\frac{2}{3}\\right)^{-2} \\cdot 9^{-3} \\cdot \\frac{1}{8}}{(-3)^{-4} \\cdot \\left(\\frac{3}{2}\\right)^{-3} \\cdot \\left(-\\frac{2}{3}\\right)^{-1}}",
                         apartados: [
-                            { texto: "(Resultado como potencia)", correcta: "(−128/9)⁻¹", errores: [["(128/9)⁻¹","El último factor del denominador es negativo, por lo que el cociente es negativo."],["(−9/128)⁻¹","Has invertido dos veces. El cociente vale −9/128 antes de escribirlo con exponente −1."],["(−128/3)⁻¹","Al agrupar las potencias de 3 queda 3² en el numerador, pues el numerador original vale 1/2592 y el denominador −4/729."]] }
+                            { texto: "(Resultado como potencia)", correcta: "\\(\\left(-\\dfrac{128}{9}\\right)^{-1}\\)", errores: [["\\(\\left(\\dfrac{128}{9}\\right)^{-1}\\)","El último factor del denominador es negativo, por lo que el cociente es negativo."],["\\(\\left(-\\dfrac{9}{128}\\right)^{-1}\\)","Has invertido dos veces. El cociente vale −9/128 antes de escribirlo con exponente −1."],["\\(\\left(-\\dfrac{128}{3}\\right)^{-1}\\)","Al agrupar las potencias de 3 queda 3² en el numerador, pues el numerador original vale 1/2592 y el denominador −4/729."]] }
                         ]
                     },
                     {
                         num: 4,
                         enunciado: "Opera y simplifica (extrae factores del radical):",
                         apartados: [
-                            { texto: "a) \\(\\sqrt{12x} + 3\\sqrt[3]{x^3} - 2\\sqrt{3x} + 4\\sqrt{x}\\)", correcta: "3x + 4√x", errores: [["3x + 6√x","√(12x) y 2√(3x) se cancelan. El único término con √x que queda es 4√x."],["3√x + 4√x","La raíz cúbica de x³ es x."],["3x − 4√x","El término final 4√x tiene signo positivo."]] },
-                            { texto: "b) \\(2\\sqrt{18} - \\sqrt{50} + 3\\sqrt{8}\\)", correcta: "7√2", errores: [["9√2","Los coeficientes se combinan como 6 − 5 + 6, cuya suma es 7."],["17√2","El término √50 lleva un signo menos."],["4√2","El último término aporta 3 · 2√2, es decir, 6√2."]] },
-                            { texto: "c) \\(\\sqrt[3]{24x^4} + \\sqrt[3]{81x^4}\\)", correcta: "5x∛(3x)", errores: [["5x∛3","Al extraer x³ de x⁴ queda una x dentro de la raíz."],["5x²∛(3x)","De x⁴ solo se puede extraer un grupo de tres factores x."],["6x∛(3x)","Los coeficientes extraídos de 24 y 81 son 2 y 3. Se suman al combinar radicales semejantes."]] },
-                            { texto: "d) \\(\\sqrt{\\frac{75}{48}}\\)", correcta: "5/4", errores: [["25/16","Has simplificado la fracción interior, pero falta calcular su raíz."],["4/5","Has invertido el numerador y el denominador."],["5/8","75/48 se reduce a 25/16. La raíz del denominador es 4."]] }
+                            { texto: "a) \\(\\sqrt{12x} + 3\\sqrt[3]{x^3} - 2\\sqrt{3x} + 4\\sqrt{x}\\)", correcta: "\\(3x + 4\\sqrt{x}\\)", errores: [["\\(3x + 6\\sqrt{x}\\)","√(12x) y 2√(3x) se cancelan. El único término con √x que queda es 4√x."],["\\(3\\sqrt{x} + 4\\sqrt{x}\\)","La raíz cúbica de x³ es x."],["\\(3x - 4\\sqrt{x}\\)","El término final 4√x tiene signo positivo."]] },
+                            { texto: "b) \\(2\\sqrt{18} - \\sqrt{50} + 3\\sqrt{8}\\)", correcta: "\\(7\\sqrt{2}\\)", errores: [["\\(9\\sqrt{2}\\)","Los coeficientes se combinan como 6 − 5 + 6, cuya suma es 7."],["\\(17\\sqrt{2}\\)","El término √50 lleva un signo menos."],["\\(4\\sqrt{2}\\)","El último término aporta 3 · 2√2, es decir, 6√2."]] },
+                            { texto: "c) \\(\\sqrt[3]{24x^4} + \\sqrt[3]{81x^4}\\)", correcta: "\\(5x\\sqrt[3]{3x}\\)", errores: [["\\(5x\\sqrt[3]{3}\\)","Al extraer x³ de x⁴ queda una x dentro de la raíz."],["\\(5x^{2}\\sqrt[3]{3x}\\)","De x⁴ solo se puede extraer un grupo de tres factores x."],["\\(6x\\sqrt[3]{3x}\\)","Los coeficientes extraídos de 24 y 81 son 2 y 3. Se suman al combinar radicales semejantes."]] },
+                            { texto: "d) \\(\\sqrt{\\frac{75}{48}}\\)", correcta: "\\(\\dfrac{5}{4}\\)", errores: [["\\(\\dfrac{25}{16}\\)","Has simplificado la fracción interior, pero falta calcular su raíz."],["\\(\\dfrac{4}{5}\\)","Has invertido el numerador y el denominador."],["\\(\\dfrac{5}{8}\\)","75/48 se reduce a 25/16. La raíz del denominador es 4."]] }
                         ]
                     },
                     {
@@ -65,25 +65,25 @@
                         enunciado: "Calcular el valor de:",
                         formula: "\\frac{\\sqrt{100 \\cdot \\sqrt{25}}}{\\sqrt[3]{125 \\cdot \\sqrt{16}}}",
                         apartados: [
-                            { texto: "(Resultado)", correcta: "⁶√500", errores: [["√500","Falta dividir por la raíz cúbica de 500."],["³√500","La resta de exponentes es 1/2 − 1/3 = 1/6."],["⁶√125","Dentro de la raíz del denominador aparece 125 · 4 = 500. Ambas potencias tienen base 500."]] }
+                            { texto: "(Resultado)", correcta: "\\(\\sqrt[6]{500}\\)", errores: [["\\(\\sqrt{500}\\)","Falta dividir por la raíz cúbica de 500."],["\\(\\sqrt[3]{500}\\)","La resta de exponentes es 1/2 − 1/3 = 1/6."],["\\(\\sqrt[6]{125}\\)","Dentro de la raíz del denominador aparece 125 · 4 = 500. Ambas potencias tienen base 500."]] }
                         ]
                     },
                     {
                         num: 6,
                         enunciado: "Expresa el resultado en forma de potencia única y también como único radical:",
                         apartados: [
-                            { texto: "a) \\(\\dfrac{\\sqrt{x^7}}{x^{-1}}\\)", correcta: "x^(9/2) = √(x⁹)", errores: [["x^(5/2) = √(x⁵)","Dividir por x⁻¹ suma una unidad al exponente 7/2."],["x^(7/2) = √(x⁷)","Esta opción solo representa el numerador."],["x^(8/2) = √(x⁸)","La unidad que se suma a 7/2 equivale a 2/2."]] },
-                            { texto: "b) \\(\\dfrac{\\sqrt{32} \\cdot 2^{-2}}{\\sqrt{8}}\\)", correcta: "2⁻¹ = √(1/4)", errores: [["2¹ = √4","√32/√8 vale 2, pero falta multiplicar por 2⁻²."],["2⁻² = √(1/16)","Has conservado solo la potencia intermedia. El cociente de radicales aporta un factor 2."],["2⁻³ = √(1/64)","El cociente √32/√8 aporta 2¹. Los exponentes se suman como 1 + (−2)."]] }
+                            { texto: "a) \\(\\dfrac{\\sqrt{x^7}}{x^{-1}}\\)", correcta: "\\(x^{\\frac{9}{2}} = \\sqrt{x^{9}}\\)", errores: [["\\(x^{\\frac{5}{2}} = \\sqrt{x^{5}}\\)","Dividir por x⁻¹ suma una unidad al exponente 7/2."],["\\(x^{\\frac{7}{2}} = \\sqrt{x^{7}}\\)","Esta opción solo representa el numerador."],["\\(x^{\\frac{8}{2}} = \\sqrt{x^{8}}\\)","La unidad que se suma a 7/2 equivale a 2/2."]] },
+                            { texto: "b) \\(\\dfrac{\\sqrt{32} \\cdot 2^{-2}}{\\sqrt{8}}\\)", correcta: "\\(2^{-1} = \\sqrt{\\frac{1}{4}}\\)", errores: [["\\(2^{1} = \\sqrt{4}\\)","√32/√8 vale 2, pero falta multiplicar por 2⁻²."],["\\(2^{-2} = \\sqrt{\\frac{1}{16}}\\)","Has conservado solo la potencia intermedia. El cociente de radicales aporta un factor 2."],["\\(2^{-3} = \\sqrt{\\frac{1}{64}}\\)","El cociente √32/√8 aporta 2¹. Los exponentes se suman como 1 + (−2)."]] }
                         ]
                     },
                     {
                         num: 7,
                         enunciado: "Racionaliza las siguientes expresiones:",
                         apartados: [
-                            { texto: "a) \\(\\dfrac{8}{\\sqrt{2}}\\)", correcta: "4√2", errores: [["8√2","Al multiplicar por √2/√2, el denominador pasa a valer 2."],["2√2","El coeficiente es 8/2, que vale 4."],["4√8","La racionalización introduce √2 en el numerador."]] },
-                            { texto: "b) \\(\\dfrac{9}{\\sqrt[3]{3}}\\)", correcta: "3∛9", errores: [["3∛3","El factor que completa un cubo es ∛9, ya que 3 · 9 = 27."],["9∛9","Tras racionalizar debes dividir el numerador por ∛27 = 3."],["∛9","Al dividir 9 por 3 queda un coeficiente 3."]] },
-                            { texto: "c) \\(\\dfrac{\\sqrt{7} + \\sqrt{5}}{\\sqrt{7} - \\sqrt{5}}\\)", correcta: "6 + √35", errores: [["6 − √35","El cuadrado de una suma tiene término cruzado positivo."],["6 + 2√35","El denominador 7 − 5 divide también el término cruzado."],["12 + 2√35","Este es el numerador racionalizado. Falta dividirlo por 2."]] },
-                            { texto: "d) \\(\\dfrac{3\\sqrt{2} + \\sqrt{5}}{3\\sqrt{2} - \\sqrt{5}}\\)", correcta: "(23 + 6√10)/13", errores: [["(23 − 6√10)/13","El numerador es el cuadrado de una suma y su término cruzado es positivo."],["(23 + 3√10)/13","Falta el factor 2 del doble producto."],["(23 + 6√10)/23","El producto de conjugados da 18 − 5 = 13 en el denominador."]] }
+                            { texto: "a) \\(\\dfrac{8}{\\sqrt{2}}\\)", correcta: "\\(4\\sqrt{2}\\)", errores: [["\\(8\\sqrt{2}\\)","Al multiplicar por √2/√2, el denominador pasa a valer 2."],["\\(2\\sqrt{2}\\)","El coeficiente es 8/2, que vale 4."],["\\(4\\sqrt{8}\\)","La racionalización introduce √2 en el numerador."]] },
+                            { texto: "b) \\(\\dfrac{9}{\\sqrt[3]{3}}\\)", correcta: "\\(3\\sqrt[3]{9}\\)", errores: [["\\(3\\sqrt[3]{3}\\)","El factor que completa un cubo es ∛9, ya que 3 · 9 = 27."],["\\(9\\sqrt[3]{9}\\)","Tras racionalizar debes dividir el numerador por ∛27 = 3."],["\\(\\sqrt[3]{9}\\)","Al dividir 9 por 3 queda un coeficiente 3."]] },
+                            { texto: "c) \\(\\dfrac{\\sqrt{7} + \\sqrt{5}}{\\sqrt{7} - \\sqrt{5}}\\)", correcta: "\\(6 + \\sqrt{35}\\)", errores: [["\\(6 - \\sqrt{35}\\)","El cuadrado de una suma tiene término cruzado positivo."],["\\(6 + 2\\sqrt{35}\\)","El denominador 7 − 5 divide también el término cruzado."],["\\(12 + 2\\sqrt{35}\\)","Este es el numerador racionalizado. Falta dividirlo por 2."]] },
+                            { texto: "d) \\(\\dfrac{3\\sqrt{2} + \\sqrt{5}}{3\\sqrt{2} - \\sqrt{5}}\\)", correcta: "\\(\\dfrac{23 + 6\\sqrt{10}}{13}\\)", errores: [["\\(\\dfrac{23 - 6\\sqrt{10}}{13}\\)","El numerador es el cuadrado de una suma y su término cruzado es positivo."],["\\(\\dfrac{23 + 3\\sqrt{10}}{13}\\)","Falta el factor 2 del doble producto."],["\\(\\dfrac{23 + 6\\sqrt{10}}{23}\\)","El producto de conjugados da 18 − 5 = 13 en el denominador."]] }
                         ]
                     },
                     {
@@ -91,7 +91,7 @@
                         enunciado: "Efectúa las siguientes operaciones:",
                         apartados: [
                             { texto: "a) \\((4 - \\sqrt{7}) \\cdot (4 + \\sqrt{7})\\)", correcta: "9", errores: [["23","El producto de conjugados da una diferencia de cuadrados, 16 − 7."],["−9","Se resta el cuadrado del segundo término al del primero, en este orden."],["−33","El cuadrado de √7 es 7. Usar 49 resta dos veces el efecto de la raíz."]] },
-                            { texto: "b) \\(\\left(\\sqrt{10} - \\sqrt{6}\\right)^2\\)", correcta: "16 − 4√15", errores: [["16 + 4√15","En el cuadrado de una diferencia, el término cruzado es negativo."],["16 − 2√15","Falta el factor 2 del doble producto, pues √60 = 2√15."],["4 − 4√15","El último cuadrado aporta +6. La parte entera es 10 + 6."]] }
+                            { texto: "b) \\(\\left(\\sqrt{10} - \\sqrt{6}\\right)^2\\)", correcta: "\\(16 - 4\\sqrt{15}\\)", errores: [["\\(16 + 4\\sqrt{15}\\)","En el cuadrado de una diferencia, el término cruzado es negativo."],["\\(16 - 2\\sqrt{15}\\)","Falta el factor 2 del doble producto, pues √60 = 2√15."],["\\(4 - 4\\sqrt{15}\\)","El último cuadrado aporta +6. La parte entera es 10 + 6."]] }
                         ]
                     },
                     {
@@ -165,15 +165,15 @@
                         enunciado: "Calcular el valor de x en la siguiente ecuación:",
                         formula: "\\ln x + \\ln 2 - \\ln 8 = \\ln 3",
                         apartados: [
-                            { texto: "Valor de x", correcta: "12", errores: [["3/4","De x/4 = 3 se obtiene x multiplicando por 4."],["24","El numerador contiene 2x. Hay que dividir 24 entre 2."],["6","El cociente 2x/8 se simplifica a x/4."]] }
+                            { texto: "Valor de x", correcta: "12", errores: [["\\(\\dfrac{3}{4}\\)","De x/4 = 3 se obtiene x multiplicando por 4."],["24","El numerador contiene 2x. Hay que dividir 24 entre 2."],["6","El cociente 2x/8 se simplifica a x/4."]] }
                         ]
                     },
                     {
                         num: 16,
                         enunciado: "Desarrolla las expresiones aplicando las propiedades de los logaritmos. Considera positivas las variables.",
                         apartados: [
-                            { texto: "a) \\(\\log\\left(\\dfrac{x^2 \\cdot \\sqrt{y}}{100}\\right)\\)", correcta: "2 log x + ½ log y − 2", errores: [["2 log x + ½ log y + 2","El denominador 100 aporta −log 100."],["2 log x + 2 log y − 2","La raíz cuadrada aporta un factor 1/2 al logaritmo de y."],["2 log x + ½ log y − 100","En base diez, log 100 vale 2."]] },
-                            { texto: "b) \\(\\ln\\left(\\dfrac{\\sqrt{a^3}}{\\sqrt[3]{b}}\\right)\\)", correcta: "³⁄₂ ln a − ⅓ ln b", errores: [["³⁄₂ ln a + ⅓ ln b","La división introduce una resta entre logaritmos."],["⅔ ln a − ⅓ ln b","La raíz de a³ tiene exponente 3/2."],["³⁄₂ ln a − 3 ln b","La raíz cúbica de b tiene exponente 1/3."]] }
+                            { texto: "a) \\(\\log\\left(\\dfrac{x^2 \\cdot \\sqrt{y}}{100}\\right)\\)", correcta: "\\(2 \\log x + \\frac{1}{2} \\log y - 2\\)", errores: [["\\(2 \\log x + \\frac{1}{2} \\log y + 2\\)","El denominador 100 aporta −log 100."],["2 log x + 2 log y − 2","La raíz cuadrada aporta un factor 1/2 al logaritmo de y."],["\\(2 \\log x + \\frac{1}{2} \\log y - 100\\)","En base diez, log 100 vale 2."]] },
+                            { texto: "b) \\(\\ln\\left(\\dfrac{\\sqrt{a^3}}{\\sqrt[3]{b}}\\right)\\)", correcta: "\\(\\frac{3}{2} \\ln a - \\frac{1}{3} \\ln b\\)", errores: [["\\(\\frac{3}{2} \\ln a + \\frac{1}{3} \\ln b\\)","La división introduce una resta entre logaritmos."],["\\(\\frac{2}{3} \\ln a - \\frac{1}{3} \\ln b\\)","La raíz de a³ tiene exponente 3/2."],["\\(\\frac{3}{2} \\ln a - 3 \\ln b\\)","La raíz cúbica de b tiene exponente 1/3."]] }
                         ]
                     },
                     {
@@ -181,14 +181,14 @@
                         enunciado: "Calcular el valor de x:",
                         apartados: [
                             { texto: "a) \\(\\ln x = \\ln 10 + \\ln 5\\)", correcta: "50", errores: [["15","La suma de logaritmos corresponde al producto 10 · 5."],["2","El cociente correspondería a una resta de logaritmos."],["5","Restar los argumentos tampoco representa la suma de logaritmos."]] },
-                            { texto: "b) \\(\\log x = \\log 60 - \\log 10\\)", correcta: "6", errores: [["50","La diferencia de logaritmos se combina dividiendo 60 entre 10."],["600","El producto correspondería a una suma de logaritmos."],["1/6","Has invertido el cociente. El primer argumento va en el numerador."]] }
+                            { texto: "b) \\(\\log x = \\log 60 - \\log 10\\)", correcta: "6", errores: [["50","La diferencia de logaritmos se combina dividiendo 60 entre 10."],["600","El producto correspondería a una suma de logaritmos."],["\\(\\dfrac{1}{6}\\)","Has invertido el cociente. El primer argumento va en el numerador."]] }
                         ]
                     },
                     {
                         num: 18,
                         enunciado: "Hallar el valor de x:",
                         apartados: [
-                            { texto: "a) \\(\\ln x = 2\\ln 3\\)", correcta: "9", errores: [["6","El 2 se convierte en exponente de 3."],["8","La potencia que corresponde es 3², con base 3."],["√3","La raíz correspondería al coeficiente 1/2."]] },
+                            { texto: "a) \\(\\ln x = 2\\ln 3\\)", correcta: "9", errores: [["6","El 2 se convierte en exponente de 3."],["8","La potencia que corresponde es 3², con base 3."],["\\(\\sqrt{3}\\)","La raíz correspondería al coeficiente 1/2."]] },
                             { texto: "b) \\(\\log x = 3\\log 2 - \\log 2\\)", correcta: "4", errores: [["6","Al restar los logaritmos queda 2 log 2, cuyo argumento equivalente es 2²."],["8","Has omitido la resta del último logaritmo."],["2","Tras restar queda un coeficiente 2 delante de log 2."]] }
                         ]
                     },
@@ -196,7 +196,7 @@
                         num: 19,
                         enunciado: "Calcula x en las siguientes ecuaciones:",
                         apartados: [
-                            { texto: "a) \\(\\log 2^x = 3\\)", correcta: "3/log 2", errores: [["3 · log 2","De x · log 2 = 3 se despeja dividiendo por log 2."],["log 2/3","Has invertido el cociente al despejar x."],["log 3/log 2","Esta opción resolvería 2ˣ = 3. La ecuación dada implica 2ˣ = 1000."]] },
+                            { texto: "a) \\(\\log 2^x = 3\\)", correcta: "\\(\\dfrac{3}{\\log 2}\\)", errores: [["3 · log 2","De x · log 2 = 3 se despeja dividiendo por log 2."],["\\(\\dfrac{\\log 2}{3}\\)","Has invertido el cociente al despejar x."],["\\(\\dfrac{\\log 3}{\\log 2}\\)","Esta opción resolvería 2ˣ = 3. La ecuación dada implica 2ˣ = 1000."]] },
                             { texto: "b) \\(\\log x^3 = 3\\)", correcta: "10", errores: [["1000","1000 es el valor de x³. Falta extraer la raíz cúbica."],["3","El 3 es el logaritmo de x³. Por tanto x³ = 10³."],["1","Al dividir 3 log x = 3 se obtiene log x = 1, lo que da x = 10."]] }
                         ]
                     },
@@ -222,8 +222,8 @@
                         num: 22,
                         enunciado: "Decide si cada igualdad es una identidad y elige la justificación correcta. Considera valores para los que todos los logaritmos están definidos.",
                         apartados: [
-                            { texto: "a) \\(\\log m + \\log n = \\log(m + n)\\)", correcta: "Falsa. La suma da log(mn).", errores: [["Verdadera. Se suman los argumentos.","La suma de logaritmos corresponde a un producto."],["Falsa. La suma da log(m/n).","El cociente corresponde a una resta de logaritmos."],["Verdadera. Basta que m y n sean positivos.","La positividad permite calcular ambos logaritmos, pero no convierte la suma de argumentos en producto."]] },
-                            { texto: "b) \\(\\log m - \\log n = \\log(m/n)\\)", correcta: "Verdadera. El argumento es m/n.", errores: [["Falsa. El argumento es m − n.","La diferencia se traslada a un cociente."],["Verdadera. El argumento también puede ser n/m.","Invertir el cociente cambia el signo del logaritmo."],["Falsa. Hay que dividir los logaritmos.","Un cociente de logaritmos se usa en el cambio de base."]] },
+                            { texto: "a) \\(\\log m + \\log n = \\log(m + n)\\)", correcta: "Falsa. La suma da log(mn).", errores: [["Verdadera. Se suman los argumentos.","La suma de logaritmos corresponde a un producto."],["Falsa. La suma da log(\\(\\frac{m}{n}\\)).","El cociente corresponde a una resta de logaritmos."],["Verdadera. Basta que m y n sean positivos.","La positividad permite calcular ambos logaritmos, pero no convierte la suma de argumentos en producto."]] },
+                            { texto: "b) \\(\\log m - \\log n = \\log(m/n)\\)", correcta: "Verdadera. El argumento es \\(\\frac{m}{n}\\).", errores: [["Falsa. El argumento es m − n.","La diferencia se traslada a un cociente."],["Verdadera. El argumento también puede ser \\(\\frac{n}{m}\\).","Invertir el cociente cambia el signo del logaritmo."],["Falsa. Hay que dividir los logaritmos.","Un cociente de logaritmos se usa en el cambio de base."]] },
                             { texto: "c) \\(\\log x^3 = 3\\log x\\)", correcta: "Verdadera. El exponente pasa a ser un factor.", errores: [["Falsa. Debe ser (log x)³.","Elevar el argumento al cubo multiplica el logaritmo por 3."],["Verdadera. También equivale a log(3x).","El logaritmo de 3x se desarrolla como log 3 + log x."],["Falsa. Debe ser log x + 3.","Sumar 3 equivaldría a multiplicar el argumento por 1000."]] },
                             { texto: "d) \\(\\log(a^2 - b^2) = \\log(a+b) + \\log(a-b)\\)", correcta: "Verdadera. a² − b² = (a+b)(a−b).", errores: [["Falsa. Una suma de logaritmos exige sumar argumentos.","Una suma de logaritmos corresponde al producto de los argumentos."],["Verdadera. a² − b² = (a−b)².","El cuadrado de la diferencia contiene un término −2ab y un término +b²."],["Falsa. Se necesita log(a+b) − log(a−b).","La resta produciría un cociente. Aquí la factorización da un producto."]] }
                         ]
@@ -268,7 +268,9 @@
             const campo = document.getElementById('campo-' + key);
             campo.disabled = true;
             document.getElementById('btn-' + key).disabled = true;
-            document.getElementById('resultado-' + key).textContent = resultado(ap, respuesta);
+            const mensaje = document.getElementById('resultado-' + key);
+            mensaje.textContent = resultado(ap, respuesta);
+            if (window.MathJax?.typesetPromise) MathJax.typesetPromise([mensaje]).catch(console.error);
         }
         function resultado(ap, respuesta) {
             if (!respuesta?.confirmada) return '';
